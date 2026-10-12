@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio - Alifya Alfatih Pakro</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
+  <!-- Simple Icons CDN untuk Icon Skill (Devicon / FontAwesome) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-900">
+
+  <!-- Header / Navbar -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+        Alifya<span class="text-slate-100">.dev</span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+        <a href="#hero" class="hover:text-cyan-400 transition-colors">Home</a>
+        <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+        <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+        <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+        <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
+      </nav>
+      <a href="#contact" class="hidden sm:inline-block px-4 py-2 text-xs font-semibold rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 transition-all shadow-lg shadow-cyan-500/20">
+        Get In Touch
+      </a>
+    </div>
+  </header>
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-[85vh] flex items-center justify-center relative overflow-hidden py-20 px-6">
+      <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="text-center max-w-3xl relative z-10">
+        <span class="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wide text-cyan-400 bg-cyan-950/60 border border-cyan-800/50 rounded-full">
+          Available for Projects & Collaborations
+        </span>
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight mb-4">
+          Halo, Saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-500">Alifya Alfatih Pakro</span>
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
+          Siswa <span class="text-slate-200 font-medium">Madrasah Aliyah Kejuruan Negeri Ende</span> yang berfokus pada pengembangan Web (Frontend & Backend) serta UI/UX Design.
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <a href="#projects" class="px-6 py-3 text-sm font-semibold rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 hover:opacity-90 transition-all shadow-lg shadow-cyan-500/25">
+            Lihat Project Saya
+          </a>
+          <a href="#contact" class="px-6 py-3 text-sm font-semibold rounded-lg bg-slate-900 border border-slate-800 text-slate-200 hover:border-slate-700 hover:bg-slate-800 transition-all">
+            Hubungi Saya
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 px-6 bg-slate-900/40 border-y border-slate-800/60">
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-slate-100">About Me</h2>
+          <div class="w-12 h-1 bg-cyan-500 rounded mb-6"></div>
+          <p class="text-slate-300 leading-relaxed mb-4">
+            Saya berasal dari <span class="text-cyan-400 font-medium">Kabupaten Alor, Nusa Tenggara Timur (NTT)</span>. Saat ini sedang menempuh pendidikan di <span class="text-cyan-400 font-medium">Madrasah Aliyah Kejuruan Negeri (MAKN) Ende</span>.
+          </p>
+          <p class="text-slate-400 leading-relaxed">
+            Saya memiliki ketertarikan dalam dunia pemrograman dan desain antarmuka. Saya mempelajari teknologi web, membangun aplikasi web yang fungsional, serta merancang pengalaman pengguna yang responsif dan estetis.
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-2xl bg-gradient-to-tr from-cyan-500 to-blue-600 p-1 shadow-2xl shadow-cyan-500/10">
+            <div class="w-full h-full bg-slate-950 rounded-[14px] flex flex-col items-center justify-center p-6 text-center">
+              <div class="w-24 h-24 rounded-full bg-cyan-950 border-2 border-cyan-500/30 flex items-center justify-center mb-4">
+                <svg class="w-12 h-12 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <h3 class="font-bold text-lg text-slate-100">Alifya A. Pakro</h3>
+              <p class="text-xs text-slate-400 mt-1">Siswa MAKN Ende • NTT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-3">Skills & Technologies</h2>
+        <div class="w-12 h-1 bg-cyan-500 rounded mx-auto mb-4"></div>
+        <p class="text-slate-400 text-sm">Teknologi dan tools yang biasa saya gunakan dalam membuat project web dan desain UI/UX.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Frontend Card -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 transition-all">
+          <h3 class="text-lg font-semibold text-cyan-400 mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+            Frontend Development
+          </h3>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-html5-plain colored text-lg"></i> HTML5
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-css3-plain colored text-lg"></i> CSS3
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-javascript-plain colored text-lg"></i> JavaScript
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-tailwindcss-plain colored text-lg"></i> Tailwind CSS
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-bootstrap-plain colored text-lg"></i>Bootstrap
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Card -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 transition-all">
+          <h3 class="text-lg font-semibold text-cyan-400 mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"/></svg>
+            Backend & Database
+          </h3>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-php-plain colored text-lg"></i> PHP
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-mysql-plain colored text-lg"></i> MySQL
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-git-plain colored text-lg"></i> Git
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- UI/UX Card -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 transition-all">
+          <h3 class="text-lg font-semibold text-cyan-400 mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
+            UI/UX & Tools
+          </h3>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-figma-plain colored text-lg"></i> Figma
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-vscode-plain colored text-lg"></i> VS Code
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-github-plain colored text-lg"></i> Github
+            </div>
+            <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+              <i class="devicon-wordpress-plain colored text-lg"></i> wordpress
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-slate-900/40 border-t border-slate-800/60">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <h2 class="text-2xl sm:text-3xl font-bold mb-3">My Projects</h2>
+          <div class="w-12 h-1 bg-cyan-500 rounded mx-auto mb-4"></div>
+          <p class="text-slate-400 text-sm">Kumpulan hasil karya dan proyek yang telah saya selesaikan.</p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mb-12">
+          <button onclick="filterProjects('all')" class="filter-btn active px-4 py-2 rounded-full text-xs font-semibold bg-cyan-500 text-slate-950 transition-all">All</button>
+          <button onclick="filterProjects('frontend')" class="filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">Frontend</button>
+          <button onclick="filterProjects('backend')" class="filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">Backend</button>
+          <button onclick="filterProjects('uiux')" class="filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">UI/UX Design</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Project 1: Backend -->
+          <div class="project-card backend bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all flex flex-col">
+            <div class="h-48 bg-slate-800/80 flex items-center justify-center border-b border-slate-800">
+              <img src="img/image copy.png" alt="">
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-1">Backend</span>
+              <h3 class="text-lg font-bold text-slate-100 mb-2">Inventory Obat Asrama</h3>
+              <p class="text-slate-400 text-xs leading-relaxed mb-4 flex-1">
+                Website untuk mengelola data obat asrama menggunakan sistem CRUD.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">HTML</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Bootstrap</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">JS</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">PHP</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">MySQL</span>
+              </div>
+              <a href="https://github.com/AlifyaPakro/Inventory_obat" class="inline-flex items-center justify-center w-full py-2.5 text-xs font-medium rounded-lg bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card backend bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all flex flex-col">
+            <div class="h-48 bg-slate-800/80 flex items-center justify-center border-b border-slate-800">
+              <img src="img/image copy 2.png" alt="">
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-1">Backend</span>
+              <h3 class="text-lg font-bold text-slate-100 mb-2">Toko Buku</h3>
+              <p class="text-slate-400 text-xs leading-relaxed mb-4 flex-1">
+                Website management buku dan penjualan buku online.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">HTML</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">TailwindCSS</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">JS</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">PHP</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">MySQL</span>
+              </div>
+              <a href="https://github.com/AlifyaPakro/Project-Akhir-KI-Basic" class="inline-flex items-center justify-center w-full py-2.5 text-xs font-medium rounded-lg bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 2: Frontend -->
+          <div class="project-card frontend bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all flex flex-col">
+            <div class="h-48 bg-slate-800/80 flex items-center justify-center border-b border-slate-800">
+              <img src="img/image.png" alt="">
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-1">Frontend</span>
+              <h3 class="text-lg font-bold text-slate-100 mb-2">Ucapan Idul Fitri</h3>
+              <p class="text-slate-400 text-xs leading-relaxed mb-4 flex-1">
+                ucapan selamat hari raya idul fitri,beserta interaksi, dan animasi objek yang menarik
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">HTML</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">CSS</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">JS</span>
+              </div>
+              <a href="https://alifyapakro.github.io/from-me-for-you/" class="inline-flex items-center justify-center w-full py-2.5 text-xs font-medium rounded-lg bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 3: UI/UX -->
+          <div class="project-card uiux bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all flex flex-col">
+            <div class="h-48 bg-slate-800/80 flex items-center justify-center border-b border-slate-800">
+              <img src="img/image copy 3.png" alt="">
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-1">UI/UX Design</span>
+              <h3 class="text-lg font-bold text-slate-100 mb-2">Nun Store Web Design</h3>
+              <p class="text-slate-400 text-xs leading-relaxed mb-4 flex-1">
+                Desain antarmuka Website toko penjualan online.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Figma</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Prototyping</span>
+              </div>
+              <a href="https://www.figma.com/design/XGoI2HF4kPhx3ilX3yGycJ/Untitled?node-id=0-1&t=McdnQyceKR9zNW2H-1" class="inline-flex items-center justify-center w-full py-2.5 text-xs font-medium rounded-lg bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all">View Prototype</a>
+            </div>
+          </div>
+
+          <div class="project-card uiux bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all flex flex-col">
+            <div class="h-48 bg-slate-800/80 flex items-center justify-center border-b border-slate-800">
+              <img src="img/image copy 4.png" alt="">
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-1">UI/UX Design</span>
+              <h3 class="text-lg font-bold text-slate-100 mb-2">Toko baju Web Design</h3>
+              <p class="text-slate-400 text-xs leading-relaxed mb-4 flex-1">
+                Desain antarmuka Website toko penjualan online.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Figma</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Prototyping</span>
+              </div>
+              <a href="https://www.figma.com/design/7LNtTtoanwhbgVYvpYcVrF/tugas-toko-baju?node-id=69-16&t=McdnQyceKR9zNW2H-1" class="inline-flex items-center justify-center w-full py-2.5 text-xs font-medium rounded-lg bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all">View Prototype</a>
+            </div>
+          </div>
+
+          <div class="project-card uiux bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all flex flex-col">
+            <div class="h-48 bg-slate-800/80 flex items-center justify-center border-b border-slate-800">
+              <img src="img/image copy 5.png" alt="">
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-1">UI/UX Design</span>
+              <h3 class="text-lg font-bold text-slate-100 mb-2">Wisata Alam Web Design</h3>
+              <p class="text-slate-400 text-xs leading-relaxed mb-4 flex-1">
+                Desain antarmuka Website Pariwisata Alor online.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Figma</span>
+                <span class="px-2.5 py-1 rounded bg-slate-950 text-[10px] text-slate-300 border border-slate-800">Prototyping</span>
+              </div>
+              <a href="https://www.figma.com/design/j87Ddsdaxd8Hy2MALQDrHv/Web-Keindahal-Alam-Pulau-alor?node-id=0-1&t=OVTaXjFojQ7rj93P-1" class="inline-flex items-center justify-center w-full py-2.5 text-xs font-medium rounded-lg bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all">View Prototype</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer Section -->
+    <section id="contact" class="py-20 px-6 max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-3">Let's Work Together</h2>
+        <div class="w-12 h-1 bg-cyan-500 rounded mx-auto mb-4"></div>
+        <p class="text-slate-400 text-sm">Punya pertanyaan atau ingin berkolaborasi? Silakan kirim pesan!</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 bg-slate-900 p-8 rounded-2xl border border-slate-800">
+        <!-- Form Kontak -->
+        <div class="flex items-center gap-2 p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium">
+          <i class="devicon-whatsapp~-plain colored text-lg"></i>
+        </div>
+
+        <!-- Informasi Info & Media Sosial -->
+        <div class="flex flex-col justify-between">
+          <div>
+            <h3 class="text-base font-semibold text-slate-100 mb-3">Informasi Kontak</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Terbuka untuk kesempatan magang atau proyek lepas (freelance).
+            </p>
+            <div class="space-y-3 text-xs text-slate-300">
+              <div class="flex items-center gap-3">
+                <span class="text-cyan-400 font-semibold">Lokasi:</span> Kab. Alor, NTT / Ende, Indonesia
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="text-cyan-400 font-semibold">Institusi:</span> MAKN Ende
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-800">
+            <h4 class="text-xs font-medium text-slate-400 mb-3">Media Sosial</h4>
+            <div class="flex items-center space-x-4 text-slate-400">
+              <a href="#" class="hover:text-cyan-400 transition-colors"><i class="devicon-github-original text-xl"></i></a>
+              <a href="#" class="hover:text-cyan-400 transition-colors"><i class="devicon-linkedin-plain text-xl"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-6 border-t border-slate-900 text-center text-xs text-slate-500">
+    <p>&copy; 2026 Alifya Alfatih Pakro. All rights reserved.</p>
+  </footer>
+
+  <!-- Script Filter Kategori Project -->
+  <script src="script.js"></script>
+</body>
+</html>
